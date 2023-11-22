@@ -1,0 +1,63 @@
+.google {
+    background-color: rgb(200, 2, 2);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    
+}
+.google:hover {
+    opacity: 0.8;
+}
+.google:active {
+    opacity: 0.5;
+}
+
+.join {
+    background-color: white;
+    border-color: rgb(48, 48, 215);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(48, 48, 215);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join:hover {
+    background-color: rgb(48, 48, 215);
+    color: white;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+.tweet {
+    background-color: rgb(83, 201, 248);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+    
+}
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
